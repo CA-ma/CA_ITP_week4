@@ -5,8 +5,8 @@ require('../spec/spec.helper')
 describe("Person", () => {
 
     let person = new Person({
-        weight: 90, //kg
-        height: 186 //cm
+        weight: 90,
+        height: 186
     })
 
     it("should have weight of 90", () => {
