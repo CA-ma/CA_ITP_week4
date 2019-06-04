@@ -1,9 +1,9 @@
 function Person(attr) {
     this.weight = attr.weight;
     this.height = attr.height;
-    this.calculate_bmi = function () {
+    this.calculateBmi = function () {
         calculator = new BMICalculator();
-        calculator.metric_bmi(this)
+        calculator.metricBmi(this)
     }
 };
 
