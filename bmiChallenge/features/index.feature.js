@@ -26,4 +26,3 @@ describe('User can calculate BMI', () => {
         expect(content).to.eql('Your BMI is 27.76');
     });
 });
-
